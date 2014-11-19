@@ -11,8 +11,8 @@ public class AnimalRunner
 		
 		for (int i = 0; i < animal.length; i++)
 			{	
-			animal[i].bearsYoung();
-			animal[i].makesNoise();
+			animal[i].bearYoung();
+			animal[i].makeNoise();
 			animal[i].eats();
 			if(animal[i] instanceof FlightBehavior)
 				{

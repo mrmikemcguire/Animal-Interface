@@ -1,8 +1,9 @@
 
 public abstract class Animal
 	{
-	String name;
-	String food;
+	protected String name;
+	protected String food;
+	protected FlightBehavior animalFlightBehavior;
 	public void bearYoung()
 		{
 		}
@@ -10,9 +11,6 @@ public abstract class Animal
 		{
 		}
 	public void makeNoise()
-		{
-		}
-	public void flies()
 		{
 		}
 	}
