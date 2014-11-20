@@ -1,10 +1,15 @@
 
 public class Robin extends Bird
 	{
-	animalFlightBehavior = (FlightBehavior) new Flies();
+	public Robin()
+		{
+		name = "Robin";
+		food = "worms";
+		animalFlightBehavior = (FlightBehavior) new Flies();
+		}
 	@Override
 	public void makeNoise()
 		{
-		System.out.println();
+		System.out.println("The robin says, \"Chirp.\"");
 		}
 	}

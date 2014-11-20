@@ -13,11 +13,8 @@ public class AnimalRunner
 			{	
 			animal[i].bearYoung();
 			animal[i].makeNoise();
-			animal[i].eats();
-			if(animal[i] instanceof FlightBehavior)
-				{
-				animal[i].flies();
-				}
+			animal[i].eat();
+			animal[i].animalFlightBehavior.flies();
 			System.out.println();
 			}
 		}
