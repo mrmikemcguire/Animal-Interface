@@ -1,5 +1,5 @@
 
-public class Mammal extends Animal
+public abstract class Mammal extends Animal
 	{
 	@Override
 	public void bearYoung()

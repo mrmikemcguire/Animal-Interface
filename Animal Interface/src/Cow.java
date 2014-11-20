@@ -3,13 +3,13 @@ public class Cow extends Mammal
 	{
 	public Cow()
 		{
-		name = "Cow";
+		name = "cow";
 		food = "grass";
-		animalFlightBehavior = (FlightBehavior) new NoFly();
+		animalFlightBehavior = (FlightBehavior) new CannotFly();
 		}
 	@Override
 	public void makeNoise()
 		{
-		System.out.println("The cow says, \"Moo.\"");
+		System.out.println("The " + name + " says, \"Moo.\"");
 		}
 	}

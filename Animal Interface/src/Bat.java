@@ -3,13 +3,13 @@ public class Bat extends Mammal
 	{
 	public Bat()
 		{
-		name = "Bat";
+		name = "bat";
 		food = "insects";
-		animalFlightBehavior= (FlightBehavior) new Flies();
+		animalFlightBehavior= (FlightBehavior) new CanFly();
 		}
 	@Override
 	public void makeNoise()
 		{
-		System.out.println("The bat emits an ultrasonic pulse.");
+		System.out.println("The " + name + " emits an ultrasonic pulse.");
 		}
 	}
