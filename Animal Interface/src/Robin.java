@@ -1,16 +1,19 @@
 
-public class Robin extends Bird
+public class Robin extends Bird implements Flyable
 	{
 	public Robin()
 		{
 		name = "robin";
 		food = "worms";
-		animalFlightBehavior = (FlightBehavior) new CanFly();
 		}
 	
 	@Override
 	public void makeNoise()
 		{
 		System.out.println("The " + name + " says, \"Chirp.\"");
+		}
+	public void flies()
+		{
+		System.out.println("Look, Ma, I can fly!");
 		}
 	}

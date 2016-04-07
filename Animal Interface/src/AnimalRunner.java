@@ -9,12 +9,12 @@ public class AnimalRunner
 		animal[2] = new Penguin();
 		animal[3] = new Robin();
 		
-		for (int i = 0; i < animal.length; i++)
+		for (Animal a : animal)
 			{	
-			animal[i].bearYoung();
-			animal[i].makeNoise();
-			animal[i].eat();
-			animal[i].animalFlightBehavior.flies();
+			a.bearYoung();
+			a.makeNoise();
+			a.eat();
+			a.flies();
 			System.out.println();
 			}
 		}
