@@ -14,7 +14,8 @@ public class AnimalRunner
 			a.bearYoung();
 			a.makeNoise();
 			a.eat();
-			a.flies();
+			if(a instanceof Flyable)
+				((Flyable)a).flies();
 			System.out.println();
 			}
 		}

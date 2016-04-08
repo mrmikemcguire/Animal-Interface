@@ -11,9 +11,6 @@ public class Penguin extends Bird
 		{
 		System.out.println("The " + name + " says, \"Brrr....\"");
 		}
-	public void flies()
-		{
-		System.out.println("I wish I could fly.");
-		}
+
 
 	}
